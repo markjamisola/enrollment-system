@@ -1,0 +1,57 @@
+Project Overview
+
+Essential Steps
+1. Setting Up Laravel
+To set up Laravel, please follow the instructions provided in the guide below:
+How to Set Up Laravel:
+
+https://www.youtube.com/watch?v=yFFXPAOvIic
+
+2. Installing and Configuring JDBC with MySQL/PostgreSQL
+For installing and configuring JDBC with MySQL or PostgreSQL, refer to the following guide:
+
+https://www.youtube.com/watch?v=ZhljL_0gm04
+
+
+SET UP YOUR DATA BASE CREATE A DATA BASE NAMED Student
+then create this table 
+
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    address VARCHAR(255),
+    contact VARCHAR(50),
+    enrolled VARCHAR(50)
+);
+
+
+How to Run the Project|
+
+Setting Up the Client
+
+Ensure you have two XML files in the client folder. The Info.java program will parse these XML files.
+Open the command prompt or terminal and navigate to the client folder.
+Compile and run the Info.java program by executing the following commands:
+Copy code
+javac Info.java
+java Info
+The client will start parsing the XML files that have been inputted.
+Functionality of Info.java
+The Info.java program allows you to enroll a student in a specific course. Here's how it works:
+
+Viewing Students and Courses: Use the "view students" and "view courses" options to see the list of students and available courses.
+Enrolling a Student: Select the student by their ID, then select the course code (which you can find using the "view courses" option).
+Multiple Enrollments: You can enroll a student in multiple courses.
+Maintaining Connection: Do not close the Info.java program after parsing the XML files. It serves as a connection between the client and the server, facilitating data export to the database.
+Setting Up the Server
+Open the command prompt or terminal and navigate to the server side.
+Compile and run the Server.java program by executing the following commands:
+arduino
+Copy code
+javac Server.java
+java Server
+If the program indicates that the data has been successfully inserted into the database, check your Laravel setup to verify the data on the page.
+
+
+

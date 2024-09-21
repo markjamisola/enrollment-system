@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Studentlist>
+
+    <student id="1" name="Harold Florendo" age="19" address="Poblacion 10" contactNumber="09690252688"></student>
+    <student id="2" name="Melvin Jipos" age="20" address="D1 Sacol" contactNumber="09092267854"></student>
+    <student id="3" name="Mark Jamisola" age="20" address="San Vicente" contactNumber="09282402911"></student>
+    <student id="4" name="Daniel Padilla" age="20" address="Seoul" contactNumber="091234567891"></student>
+    <student id="5" name="Lalisa Manoban" age="20" address="Busan" contactNumber="091234567892"></student>
+    
+
+
+</Studentlist>

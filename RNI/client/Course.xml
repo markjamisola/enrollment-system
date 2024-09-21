@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courselist>
+    <course course_id="ITE-14" student_id="1" course_title="ADVANCE PROGRAMMING" course_des="DATA STRUCTURES"></course>
+    <course course_id="ITE-16" student_id="2" course_title="DATABASE" course_des="DATABASE and PRIVACY"></course>
+    <course course_id="ITE-18" student_id="3" course_title="WEB-DEVELOPMENT" course_des="EMERGING DEVELOPMENT"></course>
+    <course course_id="IT-106" student_id="4" course_title="INTEGRATION PROGRAMMING" course_des="COMBINING AND INTEGRATE"></course>
+    <course course_id="CSC-104" student_id="5" course_title="OBJECT ORIENTED PROGRAMMING" course_des="OOP"></course>
+ 
+</courselist>
